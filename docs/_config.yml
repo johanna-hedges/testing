@@ -1,13 +1,27 @@
+remote_theme: just-the-docs/just-the-docs
 
-url: 'https://johanna-hedges.github.io/' 
-baseurl: 'atest/'
+plugins:
+  - jekyll-remote-theme
 
-back_to_top: true back_to_top_text: "Back to top"
+include:
+  - _includes/custom_head.html
+
+title: Minimal Just-the-Docs Site
+
+url: 'https://johanna-hedges.github.io/'
+baseurl: '/atest/'
+
+back_to_top: true
+back_to_top_text: "Back to top"
 
 footer_content: 'Copyright © 2025 Minimal Example.'
 
-last_edit_timestamp: true last_edit_time_format: "%b %e %Y at %I:%M %p"
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
 
 gh_edit_link: true
-gh_edit_link_text: "Edit this page on GitHub" gh_edit_repository: "https://github.com/yourusername/your-repo-name/"
-gh_edit_branch: "main" gh_edit_source: "/docs" gh_edit_view_mode: "tree"
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/yourusername/your-repo-name/"
+gh_edit_branch: "main"
+gh_edit_source: "/docs"
+gh_edit_view_mode: "tree"
