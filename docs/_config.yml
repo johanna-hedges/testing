@@ -9,7 +9,7 @@ include:
 title: Minimal Just-the-Docs Site
 
 url: 'https://johanna-hedges.github.io/'
-baseurl: '/atest/'
+baseurl: '/testing/'
 
 back_to_top: true
 back_to_top_text: "Back to top"
@@ -25,3 +25,4 @@ gh_edit_repository: "https://github.com/yourusername/your-repo-name/"
 gh_edit_branch: "main"
 gh_edit_source: "/docs"
 gh_edit_view_mode: "tree"
+
