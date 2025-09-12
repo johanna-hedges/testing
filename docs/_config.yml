@@ -3,9 +3,6 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
-include:
-  - _includes/custom_head.html
-
 title: Minimal Just-the-Docs Site
 
 url: 'https://johanna-hedges.github.io/'
@@ -33,5 +30,6 @@ gh_edit_repository: "https://github.com/johanna-hedges/testing/"
 gh_edit_branch: "main"
 gh_edit_source: "/docs"
 gh_edit_view_mode: "tree"
+
 
 
