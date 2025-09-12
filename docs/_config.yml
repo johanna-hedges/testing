@@ -2,18 +2,12 @@ remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
-includes_dir: _includes
+
 title: Minimal Just-the-Docs Site
 
 url: 'https://johanna-hedges.github.io/'
 baseurl: '/testing/'
 
-back_to_top: true
-back_to_top_text: "Back to top"
-
-
-last_edit_timestamp: true
-last_edit_time_format: "%b %e %Y at %I:%M %p"
 
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
@@ -21,6 +15,7 @@ gh_edit_repository: "https://github.com/johanna-hedges/testing/"
 gh_edit_branch: "main"
 gh_edit_source: "/docs"
 gh_edit_view_mode: "tree"
+
 
 
 
